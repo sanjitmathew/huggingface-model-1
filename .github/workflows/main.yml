@@ -16,8 +16,8 @@ jobs:
       - name: Add remote 
         env: 
           HF: ${{ secrets.HG }}
-        run: git remote add space https://bertym:$HF@huggingface.co/spaces/sanjitmathew/huggingface-model-1-space
+        run: git remote add space https://sanjitmathew:$HF@huggingface.co/spaces/sanjitmathew/huggingface-model-1-space
       - name: Push to hub
         env:
           HF: ${{ secrets.HG }}
-        run: git push --force https://bertym:$HF@huggingface.co/spaces/sanjitmathew/huggingface-model-1-space main
+        run: git push --force https://sanjitmathew:$HF@huggingface.co/spaces/sanjitmathew/huggingface-model-1-space main
