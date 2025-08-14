@@ -1,0 +1,6 @@
+gradio==5.33.2
+transformers
+tf-keras
+tensorflow>=2.18.0
+torch
+# other dependencies...
